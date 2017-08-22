@@ -4,7 +4,7 @@ Created on 17 de ago de 2017
 @author: Jhonatan
 '''
 letra = []
-vogal= ['a','e','i','o','u']
+vogal= "aeiou1234567890!@#$%¨&*()¨`´[]{}\'¬ºª;.?:,<>.+-*/\"\\~^§=ñ╗î³┌c[►◘_─○↓╚♥♦♣♠"
 print("digite 10 letras")
 for i in range(10):
   b = input(i+1)
@@ -15,3 +15,4 @@ for i in range(10):
 
   
 print(letra)
+print(len(letra))
